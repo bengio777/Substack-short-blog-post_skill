@@ -102,9 +102,13 @@ After post 5, remind the author: "You now have enough posts for voice calibratio
 
 ## Input Requirements
 
-- **Required:** At least one media file (photo, video, or audio)
+- **Required:** At least one media input — local file, YouTube link, or Spotify link
 - **Optional:** Author's context about the media ("this was from..." or "I had just learned...")
-- **Format:** Any common media format — JPEG, PNG, HEIC (photos), MP4, MOV (video), M4A, MP3, WAV (audio)
+- **Accepted formats:**
+  - Local files: JPEG, PNG, HEIC (photos), MP4, MOV (video), M4A, MP3, WAV (audio)
+  - YouTube links (video) — Substack auto-embeds
+  - Spotify links (audio/music) — Substack auto-embeds
+  - iCloud references for high-quality originals (author provides compressed version or YouTube link for the post)
 
 ---
 

@@ -18,15 +18,21 @@
 
 - **Action:** Choose the piece(s) of media that will spark the post
 - **Sub-steps:**
-  1. Browse media across sources (phone camera roll, iCloud, computer folders) or arrive with a specific piece already in mind
+  1. Browse media across sources (phone camera roll, iCloud, computer folders, YouTube, Spotify) or arrive with a specific piece already in mind
   2. Apply the selection filter — does this media trigger an emotional reaction, carry a story behind it, or have strong aesthetic/visual quality?
   3. Confirm selection — single piece or a collection from the same experience
+  4. Determine media source type for each piece:
+     - **Local file** (photo, short clip) → will be included directly in the post repo
+     - **YouTube link** (video) → reference by URL, Substack auto-embeds
+     - **Spotify link** (audio/music) → reference by URL, Substack auto-embeds
+     - **iCloud/local original** (high-quality video) → store original in iCloud, use compressed version or YouTube link in post
 - **Decision Points:**
   - Browsing mode vs. "I already know what I want to post about"
   - Single piece vs. collection — does this experience need multiple media to tell the story?
-- **Data In:** Raw media library (phone camera roll, iCloud, local folders)
-- **Data Out:** Selected media file(s) for the post
-- **Context Needs:** Access to the author's media across devices/storage locations
+  - For video: upload to YouTube and embed by link, or use a local compressed version?
+- **Data In:** Raw media library (phone camera roll, iCloud, local folders, YouTube channel, Spotify)
+- **Data Out:** Selected media file(s) and/or links for the post + media-sources.md reference file
+- **Context Needs:** Access to the author's media across devices/storage locations and platform accounts
 - **Failure Modes:**
   - Nothing in the library sparks a post — no emotional, narrative, or aesthetic trigger fires
   - Too many options lead to decision paralysis
